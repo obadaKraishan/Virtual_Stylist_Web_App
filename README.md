@@ -29,8 +29,8 @@ Follow these steps to set up the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/obadaKraishan/Virtual_Stylist.git
-cd Virtual_Stylist
+git clone https://github.com/obadaKraishan/Virtual_Stylist_Web_App.git
+cd Virtual_Stylist_Web_App
 ```
 
 ### 2. Create a Virtual Environment
