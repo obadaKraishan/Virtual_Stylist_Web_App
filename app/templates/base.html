@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+    <title>Virtual Stylist</title>
+</head>
+<body>
+    <header>
+        <h1>Virtual Stylist</h1>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>Developed by <a href="https://github.com/obadaKraishan" target="_blank">Obada Kraishan</a></p>
+    </footer>
+</body>
+</html>

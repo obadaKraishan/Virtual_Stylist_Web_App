@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="recommendations-section">
+    <h2>Recommended Outfits</h2>
+    <ul class="recommendations-list">
+        {% for outfit in recommendations %}
+        <li class="recommendation-item">
+            <h3>Recommended Outfit {{ loop.index }}</h3>
+            <p>{{ outfit }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/" class="btn-back">Back to Form</a>
+</section>
+{% endblock %}
